@@ -1,0 +1,1 @@
+db.produtos.find().sort({ nome: 1 }, { vendidos: 1 }).pretty();
